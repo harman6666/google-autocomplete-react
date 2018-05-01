@@ -22,7 +22,7 @@ Architecture Details
 A terrible idea, of course. The problem with the large number of files is to navigate them.
 So, For this reason I structured the application in a effiecent manner.
 ##### Directory Structure :-
-![directory-structure](https://thumb.ibb.co/n87iUS/Quandoo4.png)
+![directory-structure](https://s17.postimg.cc/hk9wkwl8v/Quandoo4.png)
 
 - As you can see in the above screenshot we have different folders for different components and every component have index.js file because this is the default file and when we run the application this file will automatically call when we import this folder in any other component.
 - Made separate folder for test files with "__" in the starting and ending because jest will automatically pick all the files inside this folder(there is a configuration in the webpack) and run tests written in these files. 
@@ -57,11 +57,13 @@ Installation
 Some Examples/Screenshots
 -----------
 
-![Quandoo1](https://thumb.ibb.co/iXoRG7/Quandoo1.png)
+![home-screen](https://s17.postimg.cc/imk33fwcf/Quandoo1.png)
 
-![Quandoo1](https://thumb.ibb.co/fenxOn/Quandoo2.png)
+![welcome-screen](https://s17.postimg.cc/tm5af29wv/Quandoo2.png)
 
-![Quandoo1](https://thumb.ibb.co/gOxxOn/Quandoo3.png)
+![google-map](https://s17.postimg.cc/f2y5dn927/Quandoo3.png)
+
+![404-page](https://s17.postimg.cc/baemxk6b3/Quandoo5.png)
 
 
 Some NPM commands for reference
@@ -70,6 +72,7 @@ Some NPM commands for reference
 - __npm start__ starts the development server and auto-reloads the page any time you make edits
 - __npm run__ build bundles the app into static files for production
 - __npm test__ starts the test runner and lets you test your app with Jest as you build it.
+
 
 ### Thanks !
 
