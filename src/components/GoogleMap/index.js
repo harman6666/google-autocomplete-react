@@ -197,13 +197,13 @@ class Map extends React.Component {
   render() {
     return ( 
       <div id = 'mapWrapper'>
-        <div id = 'map'> </div> 
         <div className="placesInfo" ref={ref => {this.placesContainer = ref}}>
           <div className="close__button"> <button onClick={this.closePopup}>x</button></div>
           <p> Place: { this.state.place_formatted } </p> 
           <p> Place ID: { this.state.place_id } </p> 
           <p> Location: { this.state.place_location } </p> 
         </div>
+        <div id = 'map'> </div> 
         <div id='pac-container' className="place__input--container">
           <input id='map-location-search' ref={autoCompleteInput => {this.inputField = autoCompleteInput}} type='text' name="search" placeholder='Enter a location' />
         </div>

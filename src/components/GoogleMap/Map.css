@@ -36,6 +36,7 @@
   top: 70px;
   left: 38px;
   padding: 20px;
+  margin: 10px 12px;
 }
 
 #mapWrapper {
@@ -83,5 +84,6 @@ input[type=text]#map-location-search:focus {
   .placesInfo {
 	  float: left;
 	  position: absolute;
+	  margin: 0;
 	}
 }
