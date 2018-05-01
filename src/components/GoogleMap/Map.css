@@ -1,0 +1,87 @@
+#map {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Id's used due to google maps configuration */
+#map, #mapWrapper {
+  height: 90%;
+}
+
+.place__input--container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+/* Id's used due to google maps configuration */
+#map-location-search {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#map-location-search:focus {
+  border-color: #4d90fe;
+}
+
+.placesInfo {
+  z-index: 22;
+  background-color: black;
+  opacity: 0.5;
+  display: none;
+  color: white;
+  top: 70px;
+  left: 38px;
+  padding: 20px;
+}
+
+#mapWrapper {
+  position: relative;
+  top: 7rem;
+}
+.close__button {
+  text-align: right;
+}
+.close__button button {
+  cursor: pointer;
+}
+
+input[type=text]#map-location-search {
+  width: 160px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../../img/searchicon.png');
+  background-position: 10px 2px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  -webkit-transition: width 0.4s ease-in-out;
+  -webkit-box-shadow:0 1px 3px 0 rgba(0,0,0,.25);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type=text]#map-location-search:focus {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  #mapWrapper {
+    top: 5rem;
+  }
+  #map-location-search {
+    margin-left: 12px;
+  }
+  .placesInfo {
+	  float: left;
+	  position: absolute;
+	}
+}

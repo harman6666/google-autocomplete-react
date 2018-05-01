@@ -1,0 +1,91 @@
+.box {
+	display: flex;
+}
+
+.welcome__page {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 300px;
+    position: relative;
+}
+.ref__text {
+	    position: absolute;
+    top: 12rem;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    width: 500px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+.next.round {
+	text-decoration: none;
+    display: inline-block;
+    padding: 15px 22px;
+    background-color: rgb(248, 179, 51);
+    color: white;
+    border-radius: 50%;
+}
+.next__page {
+	position: absolute;
+    right: 35px;
+}
+.box .inner {
+	width: 150px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 2em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+	background-color: rgb(255, 101, 113);;
+	color: darkred;
+	transform-origin: left;
+	transform: perspective(225px) rotateY(-67.3deg);
+}
+
+.box .inner:last-child {
+	background-color: rgb(255, 101, 113);;
+	color: antiquewhite;
+	transform-origin: right;
+	transform: perspective(225px) rotateY(67.3deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.box .inner { 
+		width: 200px;
+	}
+	.box .inner:first-child {
+		transform: perspective(300px) rotateY(-67.3deg);
+	}
+
+	.box .inner:last-child {
+		transform: perspective(300px) rotateY(67.3deg);
+	}
+}

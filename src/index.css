@@ -1,0 +1,88 @@
+/* Common CSS across the application */
+
+html, body {
+  height: 100%;
+  background: url('./img/HeroPhoto.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Barlow', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+
+.google__autocomplete--root, .google__autocomplete--app, main { 
+  height: 100%;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.svg__container {
+  width: 165px;
+  display: inline-block;
+}
+
+footer {
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+
+.header__logo {
+  margin-top: 12px;
+  float: unset;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.nav__links {
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav__links li {
+  display: inline-block;
+  margin-right: 50px;
+}
+.nav__links li > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav__links li:last-child {
+  margin-right: 0;
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+/* Media Query for tablet an up devices */
+@media (min-width: 768px) {
+  body {
+    padding: 0 20px;
+  }
+  nav .header__logo {
+    float: left;
+    text-align: left;
+    margin-left: 0;
+  }
+  header.header__container nav{
+    padding: 0 125px;
+  }
+  ul.nav__links {
+    text-align: left;
+    float: right;
+  }
+}
