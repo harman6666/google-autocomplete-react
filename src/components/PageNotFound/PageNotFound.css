@@ -4,8 +4,9 @@
     letter-spacing: 2px;
     font-weight: 300;
     text-shadow: 0 2px 2px rgba(0,0,0,0.6);
-    font-size: 13em;
     margin-bottom: 0;
+    font-size: 3rem;
+    padding-top: 2rem;
 }
 
 .page__not--found h3 {
@@ -25,14 +26,14 @@
 }
 
 .page__not--found {
-	width: 55%;
-    margin: 3em auto;
     -webkit-box-shadow: -5px 20px 30px 8px rgba(0,0,0,0.45);
     -moz-box-shadow: -5px 20px 30px 8px rgba(0,0,0,0.45);
     box-shadow: -5px 20px 30px 8px rgba(0,0,0,0.45);
     background: rgba(183,190,216, 0.6);
     text-align: center;
     padding-bottom: 25px;
+    width: 80%;
+    margin: 10em auto;
 }
 
 .page__not--found button {
@@ -50,4 +51,15 @@
 .page__not--found button a {
     text-decoration: none;
     color: white;
+}
+
+@media (min-width: 768px) {
+    .page__not--found {
+        width: 55%;
+        margin: 3em auto;
+    }
+    .page__not--found h2 {
+        font-size: 13em;
+        padding-top: 0;
+    }
 }
