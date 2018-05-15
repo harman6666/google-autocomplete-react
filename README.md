@@ -34,7 +34,7 @@ Functionalities
 - Fully functional google maps integration.
 - Also, added geolocation for getting the user location if they allow from the browser.
 - If user *accepts*, the capturing of user location by the browser then they will see a marker at there current location.
-- Or, if user *declines* the capturing of the user location by the browser then they will be able to see the __Quandoo__ Berlin office address by default :)
+- Or, if user *declines* the capturing of the user location by the browser then they will be able to see the Berlin address by default :)
 - A user can search any place by typing in the text box given at top left corner of the Map.
 - Once the user clicked on the place from the drop-down, they can be able to see the place on the map with the nearby Hotels and Resturants within 5000 m radius. Additionally, the user can also get the detailed information on the popup regarding the place they entered.
 - A user can close the popup.
@@ -42,7 +42,7 @@ Functionalities
 - A user can tap on any of the marker/icon on the map to get the information about the place.
 - A user can go in full-width view for getting a bigger display(All the other functionalities will remain same).
 - Implemented Router to browse other pages flawlessly without reloading the page(Single page architecture).
-- Implemented welcome animation which will capture the name from the home page. If user not enters anything and hit enter then by default __Quandoo__ name will be shown on the welcome page.
+- Implemented welcome animation which will capture the name from the home page. If user not enters anything and hit enter then by default __Champian__ name will be shown on the welcome page.
 - A __Fully responsive__ webpage.
 - __​....​phhhhhew__, that was a long list. Is not it? Why not you go to the below steps and have a look into the webapp.
 

@@ -6,7 +6,7 @@ export default class WelcomePage extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			name: (sessionStorage.getItem('name')) ? sessionStorage.getItem('name') : 'Quandoo'
+			name: (sessionStorage.getItem('name')) ? sessionStorage.getItem('name') : 'Champian'
 		}
 	}
 	render() {
