@@ -60,8 +60,6 @@ Some Examples/Screenshots
 
 ![home-screen](https://s17.postimg.cc/imk33fwcf/Quandoo1.png)
 
-![welcome-screen](https://s17.postimg.cc/tm5af29wv/Quandoo2.png)
-
 ![google-map](https://s17.postimg.cc/f2y5dn927/Quandoo3.png)
 
 ![404-page](https://s17.postimg.cc/baemxk6b3/Quandoo5.png)
