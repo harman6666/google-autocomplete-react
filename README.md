@@ -34,7 +34,7 @@ Functionalities
 - Fully functional google maps integration.
 - Also, added geolocation for getting the user location if they allow from the browser.
 - If user *accepts*, the capturing of user location by the browser then they will see a marker at there current location.
-- Or, if user *declines* the capturing of the user location by the browser then they will be able to see the Berlin address by default :)
+- Or, if user *declines* the capturing of the user location by the browser then they will be able to see the __Gurgaon, India__ address by default :)
 - A user can search any place by typing in the text box given at top left corner of the Map.
 - Once the user clicked on the place from the drop-down, they can be able to see the place on the map with the nearby Hotels and Resturants within 5000 m radius. Additionally, the user can also get the detailed information on the popup regarding the place they entered.
 - A user can close the popup.
