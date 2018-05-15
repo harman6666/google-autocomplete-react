@@ -12,9 +12,9 @@ class Map extends React.Component {
       place_formatted: '',
       place_id: '',
       place_location: '',
-      title: 'Quandoo Office',
-      defaultLat: 52.5486836,
-      defaultLng: 13.40719880000006
+      title: 'Gurgaon Location',
+      defaultLat: 28.4595,
+      defaultLng: 77.0266
     };
     this.manualLocWithAutocomplete = this.manualLocWithAutocomplete.bind(this);
     this.autoCompleteFunc = this.autoCompleteFunc.bind(this);
