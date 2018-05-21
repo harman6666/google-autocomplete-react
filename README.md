@@ -58,7 +58,6 @@ Installation
 Some Examples/Screenshots
 -----------
 
-![home-screen](https://s17.postimg.cc/imk33fwcf/Quandoo1.png)
 
 ![google-map](https://s17.postimg.cc/f2y5dn927/Quandoo3.png)
 
