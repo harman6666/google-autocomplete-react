@@ -61,7 +61,6 @@ Some Examples/Screenshots
 
 ![google-map](https://s17.postimg.cc/f2y5dn927/Quandoo3.png)
 
-![404-page](https://s17.postimg.cc/baemxk6b3/Quandoo5.png)
 
 
 Some NPM commands for reference
